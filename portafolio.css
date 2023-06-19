@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.mynav{
+	
+}
+
+.navbar{background-color:#851B67 !important;}
+
+.navbar .navbar-brand {
+	color: #C088F9;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+.navbar .navbar-nav{
+	margin: 5px auto;
+	}
+.navbar .nav-item a{color:#C088F9;
+font-weight: 700;}
+.nav-link .dropdown-toggle a{color: black;}
+
+.nav-link {color: rgba(168,113,245,1.00)}
+
+.container{background-color: rgba(53,1,50,0.79);
+padding-top: 20px; padding-bottom: 20px; padding-left:30px;
+height: 800px}
+
+.col-sm-4{background-color:rgba(79,0,61,1.00);
+color:rgba(181,133,252,1.00)}
+
+.col-sm-8{
+	color: rgba(177,143,225,1.00)
+}
+
+.nav-link { list-style-image:url("ima/social/ins.png");
+}
+
+.light {color: #C157DE; text-align-last: center; margin-right: 800px;}
+
+.fsoc {list-style: none;
+	padding-left: 0;}
+.fsoc li {
+	position: relative;
+	padding-left: 20px;
+}
+.fsoc li:before{ content: '';
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background-image: url("ima/social/fb.png");
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	top:50%;
+	transform: translateY(-50%)
+}
+
+.isoc {list-style: none;
+	padding-left: 0;}
+.isoc li {
+	position: relative;
+	padding-left: 20px;
+}
+.isoc li:before{ content: '';
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background-image: url("ima/social/ig.png");
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	top:50%;
+	transform: translateY(-50%)
+}
+
+.tsoc {list-style: none;
+	padding-left: 0;}
+.tsoc li {
+	position: relative;
+	padding-left: 20px;
+}
+.tsoc li:before{ content: '';
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background-image: url("ima/social/twt.png");
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	top:50%;
+	transform: translateY(-50%)
+}
+
+.ysoc {list-style: none;
+	padding-left: 0;}
+.ysoc li {
+	position: relative;
+	padding-left: 20px;
+}
+.ysoc li:before{ content: '';
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background-image: url("ima/social/yt.png");
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	top:50%;
+	transform: translateY(-50%)
+}
+
+.wsoc {list-style: none;
+	padding-left: 0;}
+.wsoc li {
+	position: relative;
+	padding-left: 20px;
+}
+
+
+.brand img{
+width: 140px;
+height:70px;
+}
+
